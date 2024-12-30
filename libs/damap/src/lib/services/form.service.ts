@@ -438,7 +438,7 @@ export class FormService {
       dataAccess: [DataAccessType.OPEN],
       referenceHash: ['', Validators.maxLength(this.TEXT_SHORT_LENGTH)],
       selectedProjectMembersAccess: [AccessRight.WRITE],
-      otherProjectMembersAccess: [AccessRight.WRITE],
+      otherProjectMembersAccess: [AccessRight.READ],
       publicAccess: [AccessRight.NONE],
       delete: [false],
       dateOfDeletion: [null],
